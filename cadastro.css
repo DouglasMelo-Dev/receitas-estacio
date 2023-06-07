@@ -1,0 +1,33 @@
+form{
+    width: 80%;
+    padding: 30px;
+}
+
+.formulario__titulo{
+    text-align: start;
+    padding: 10px 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    background-color: #353A3F;
+    
+}
+
+.btn:hover{
+    background-color: #333;
+}
+
+.remove{
+    text-decoration: none;
+}
+
+.remove:hover{
+    text-decoration: none;
+    
+}
+

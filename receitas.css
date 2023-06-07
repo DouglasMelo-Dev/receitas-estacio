@@ -1,0 +1,40 @@
+.receitas__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 10px;
+}
+
+.card{
+    width: 250px;
+	height: 450px;
+    background-color: #F9FAD2;
+    border: none;
+    box-shadow: 2px 2px 8px #333;
+    border-radius: 5px; 
+}
+
+.card img{
+    width: 100%;
+    height: 130px;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.card__titulo{
+    margin: 10px;
+    text-align: center;
+}
+
+.card__lista{
+    margin: 20px 30px 20px 30px;
+    border-bottom: .5px solid #333;
+    padding-bottom: 20px;
+}
+
+.card__roteiro{
+    margin: 10px 30px 10px 30px;
+}
